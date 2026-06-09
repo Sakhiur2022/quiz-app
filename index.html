@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="quiz-card" aria-label="JavaScript quiz app">
+        <header class="hero">
+          <div>
+            <p class="eyebrow">Interactive Challenge</p>
+            <h1>JavaScript Quiz Sprint</h1>
+            <p class="subtitle">
+              Answer 10 shuffled questions before the clock runs out.
+            </p>
+          </div>
+
+          <div class="status-grid" aria-live="polite">
+            <div class="status-pill">
+              <span class="status-label">Score</span>
+              <strong id="score-text">0</strong>
+            </div>
+            <div class="status-pill">
+              <span class="status-label">Timer</span>
+              <strong id="timer-text">30s</strong>
+            </div>
+          </div>
+        </header>
+
+        <div class="progress-block">
+          <div class="progress-meta">
+            <span id="progress-text">Question 1 of 10</span>
+            <span id="points-text">0 correct</span>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+        </div>
+
+        <section class="quiz-area">
+          <div class="question-panel">
+            <h2 id="question-text">Question text goes here</h2>
+            <div id="options-container" class="options-grid" role="list"></div>
+          </div>
+
+          <div class="feedback-panel">
+            <p id="feedback-text">Select the best answer to continue.</p>
+            <button id="restart-btn" class="restart-btn" type="button">
+              Restart Quiz
+            </button>
+          </div>
+        </section>
+
+        <section
+          id="results-card"
+          class="results-card hidden"
+          aria-live="polite"
+        ></section>
+      </section>
+    </main>
+  </body>
+</html>
