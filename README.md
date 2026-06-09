@@ -1,6 +1,6 @@
-# Project Name
+# JavaScript Quiz Sprint
 
-> One-line description of what this project does and who it's for.
+> A lightweight browser quiz for learners who want a quick, timed practice on core JavaScript concepts.
 
 ![Project Banner or Screenshot](screenshots/banner.png)
 
@@ -8,23 +8,27 @@
 
 ## 🔴 Live Demo
 
-🔗 [View Live](https://your-live-link.com)
+🔗 [View Live](https://sakhiur2022.github.io/quiz-app/)
 
 ---
 
 ## 📸 Screenshots
 
-| Home                          | Feature                             |
-| ----------------------------- | ----------------------------------- |
-| ![Home](screenshots/home.png) | ![Feature](screenshots/feature.png) |
+| Question View                              | Answer Selected                            |
+| ------------------------------------------ | ------------------------------------------ |
+| ![Question](screenshots/question-view.png) | ![Answer](screenshots/answer-selected.png) |
+
+| Results Screen                             |
+| ------------------------------------------ |
+| ![Results](screenshots/results-screen.png) |
 
 ---
 
 ## ✨ Features
 
-- Feature one
-- Feature two
-- Feature three
+- Timed 10-question challenge (30s per question) with auto-advance on timeout
+- Questions and options are shuffled each attempt; score and progress are tracked
+- Immediate correct/wrong highlighting, feedback, and a results summary with percentage
 
 ---
 
@@ -57,15 +61,17 @@ No dependencies. No build step.
 ├── style.css
 ├── app.js
 └── screenshots/
+    ├── answer-selected.png
     ├── banner.png
-    └── home.png
+    ├── question-view.png
+    └── results-screen.png
 ```
 
 ---
 
 ## 🤝 Connect
 
-**Sakhiur** · [LinkedIn](https://linkedin.com/in/your-profile) · [Portfolio](https://sakhiur.vercel.app)
+**Sakhiur** · [LinkedIn](https://www.linkedin.com/in/sakhiur/) · [Portfolio](https://sakhiur.vercel.app)
 
 ---
 
